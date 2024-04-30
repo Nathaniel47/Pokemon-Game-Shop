@@ -1,0 +1,257 @@
+main{
+    background: lightgreen;
+    background: linear-gradient(#48847c, #75cb9b);
+    height: 1000px;
+}
+
+img{
+    max-width: 100%;
+    height: 90px;
+    width: 150px;
+}
+
+
+.image{
+    text-align: center;
+}
+
+header{
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight:350;
+    
+}
+
+h1{
+    font-size:  14px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight:500;
+    margin-bottom: 40px;
+}
+
+#Icons-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toggle-icon{
+    width: 30px;
+    height: 31px;
+    
+}
+
+ #toggle-container{ 
+    background-color: white;
+    width: 43px;
+    height: 23px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-left: 10px;
+    padding-right: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #30757d;
+    margin-right: 20px;
+    box-shadow:1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+ }
+
+
+
+ #close-icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 70px;
+    /* border:5px solid rgba(255, 255, 255, 0.3); */
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+    margin-right: 20px;
+    
+ }
+
+
+
+ #icons{
+    width: 41px;
+    height: 41px;
+    border-radius: 70px;
+    border:2px solid #30757d;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+    margin-right: 20px;
+    
+ }
+
+ #running-icon{
+    width: 41px;
+    height: 41px;
+    border-radius: 70px;
+    border:2px solid #30757d;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+    margin-right: 20px;
+    
+ }
+
+ #empty-icon{
+    background-color: white;
+    width: 41px;
+    height: 41px;
+    border-radius: 70px;
+    border:2px solid #30757d;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+    margin-right: 20px;
+    
+ }
+
+ #Eevee{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    font-family: open Sans;
+    font-size: 90%;
+ }
+ #pokemon-game{
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    padding-right: 5px;
+ }
+
+ #forwardslash{
+    margin: 10px;
+    font-weight: 1;
+
+ }
+
+ #CP{
+    font-size: 80%;
+ }
+
+ #Icons-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+        font-size:  11px; 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #30757d;
+        font-weight:500;
+        padding-left: 5px;
+        
+}
+
+#backpack-icon-container{
+    display: flex;
+    flex-flow:column;
+    margin-top: 25px;
+}
+
+#pokedex{
+   padding-left: 0px;
+}
+
+#POKÉMON{
+   width: 41px;
+    height: 41px;
+    border-radius: 70px;
+    border:2px solid #30757d;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+    /* margin-right: 10px; */
+}
+
+#black-icons-containers{
+   border-radius: 100px;
+   margin-bottom: 10px;
+
+   
+
+}
+
+
+#buttons-container{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+   
+}
+
+h3{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size:  10px;
+   font-weight: 500;
+   background-color: rgba(221, 251, 102, 0.4);
+   width: 115px;
+   height: 30px;
+   border-radius: 10px;
+   margin-right: 20px;
+}
+
+
+
+#NO{
+   color: #30757d;
+   background-color: #75cb9b;
+   opacity: 0.4;
+   border-radius: 0px;
+   width: 40px;
+   height: 0px;
+   font-weight: 500;
+   margin-right: 20px;
+
+
+}
+
+#Transfer{
+   background:  linear-gradient(to right, lightgreen,#75cb9b );
+}
+
+#xp{
+   background-color: #fe5db0fe;
+   opacity: 0.9;
+   box-shadow:0 0 5px 1px rgba(0, 0, 0, 0.2);
+   font-size: small;
+   font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#settings{
+   width: 42px;
+   height: 42px;
+   border-radius: 70px;
+   margin-right: 20px;
+   padding-left: 10px;
+}
+
+.settings{
+   margin-left: 10px;
+}
+
+#b-icons{
+   width: 38px;
+    height: 38px;
+    border-radius: 70px;
+    border:1px solid #b7faf4;
+    box-shadow: 0 0 0 3px rgba(48, 117, 125, 1);
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#space{
+   height: 200px;
+}
